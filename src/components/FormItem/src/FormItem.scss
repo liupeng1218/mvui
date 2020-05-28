@@ -1,0 +1,12 @@
+.mv-form__item{
+  padding-bottom: 14px;
+}
+label.mv-form__item__label--required::before {
+  content: '*';
+  color: red;
+}
+.mv-form__item__message {
+  position: absolute;
+  color: red;
+  font-size: 12px;
+}
